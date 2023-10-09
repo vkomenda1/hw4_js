@@ -309,33 +309,3 @@ function convertMetersToKilometers(meters) {
 }
 
 convertMetersToKilometers(0.32);
-
-
-// m = 320
-// km = 0.32
-
-// endingKm = '';
-// endingM = '';
-
-// if (km < 1) {
-//     endingKm = 'а'
-// } if (km % 10 === 3 || km % 10 === 4 || km % 10 === 2) {
-//    endingKm = 'и'
-// } else if (km % 10 === 1) { 
-//    endingKm = ''
-// } else if (km % 10 > 5) { 
-//    endingKm = 'ів'
-// }
-
-
-// if (m < 1) {
-//     endingM = 'а'
-// } if (km % 10 === 3 || km % 10 === 4 || km % 10 === 2) {
-//    endingM = 'и'
-// } else if (km % 10 === 1) { 
-//    endingM = ''
-// } else if (km % 10 > 5) { 
-//    endingM = 'ів'
-// }
-
-// console.log(${m} метр${endingM} це ${km} кілометр${endingKm})
